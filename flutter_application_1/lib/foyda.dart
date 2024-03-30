@@ -36,7 +36,7 @@ class _Carusel1State extends State<Carusel1> {
         ),
         child: Padding(
           padding:
-              const EdgeInsets.only(top: 50, left: 20, right: 20, bottom: 30),
+              const EdgeInsets.only(top: 30, left: 20, right: 20, bottom: 30),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
