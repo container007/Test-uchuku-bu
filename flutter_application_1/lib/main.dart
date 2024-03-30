@@ -43,7 +43,7 @@ class _Carusel1State extends State<Carusel1> {
             children: [
               Expanded(
                 child: ClipRRect(
-                  borderRadius: BorderRadius.circular(15),
+                  borderRadius: BorderRadius.circular(20),
                   child: BackdropFilter(
                     filter: ImageFilter.blur(sigmaX: 2, sigmaY: 2),
                     child: Container(
@@ -184,7 +184,7 @@ class _Carusel1State extends State<Carusel1> {
                                       setState(() {
                                         _loading = true;
                                       });
-                                      Future.delayed(Duration(seconds: 1), () {
+                                      Future.delayed(Duration(seconds: 5), () {
                                         Navigator.push(
                                           context,
                                           MaterialPageRoute(
